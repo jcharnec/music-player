@@ -106,6 +106,7 @@ ul {
     column-gap: 13px;
     align-items: center;
     justify-content: center;
+    padding: 3px;
 }
 
 #player-album-art {
@@ -114,7 +115,8 @@ ul {
 }
 
 #player-album-art img {
-    width: 150px;
+    width: 100%;
+    height: auto;
     display: block;
 }
 
